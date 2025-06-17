@@ -1,11 +1,15 @@
 WASTE SEGREGATION PROJECT
+
 CNN IMAGE CLASSIFICATION MODEL
+
 By Tuyet Tu
 
 =======PROBLEM STATEMENT=======
+
 Improper waste disposal contributes to environmental degradation, increased landfill waste and inefficient recycling processes. Manual sorting is labour-intensive, error-prone and costly. An AI-powered waste classification system addresses these challenges by streamlining waste segregation, reducing operational costs and improving recycling rates.
 
 =======OBJECTIVE=======
+
 The objective of this project is to implement an effective waste material segregation system using convolutional neural networks (CNNs) that categorises waste into distinct groups. This process enhances recycling efficiency, minimises environmental pollution, and promotes sustainable waste management practices.
 
 Key goals:
@@ -14,6 +18,7 @@ Key goals:
 * Understand the properties of different waste materials to optimise sorting methods for sustainability
 
 =======DATASET OVERVIEW=======
+
 Total Images: 7,625 waste images across 7 categories
 Image Format: PNG files (256×256 pixels, RGB)
 
@@ -33,6 +38,7 @@ Data Preprocessing:
 - 70-30 stratified train-validation split
 
 =======MODEL ARCHITECTURE=======
+
 Final Model: 4-layer CNN with class weights
 Total Parameters: 456,007
 Optimization: Adam optimizer with categorical crossentropy loss
@@ -58,6 +64,7 @@ Key Findings:
 - Room for improvement on minority classes (Glass, Cardboard)
 
 =======REQUIREMENTS=======
+
 Python: 3.10.18
 Dependencies:
 - numpy: 1.26.4
