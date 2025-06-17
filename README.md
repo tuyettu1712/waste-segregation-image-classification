@@ -19,8 +19,8 @@ Key goals:
 
 =======DATASET OVERVIEW=======
 
-Total Images: 7,625 waste images across 7 categories
-Image Format: PNG files (256×256 pixels, RGB)
+- Total Images: 7,625 waste images across 7 categories
+- Image Format: PNG files (256×256 pixels, RGB)
 
 Data Distribution:
 - Plastic: 2,295 images (30.1%)
@@ -39,9 +39,9 @@ Data Preprocessing:
 
 =======MODEL ARCHITECTURE=======
 
-Final Model: 4-layer CNN with class weights
-Total Parameters: 456,007
-Optimization: Adam optimizer with categorical crossentropy loss
+- Final Model: 4-layer CNN with class weights
+- Total Parameters: 456,007
+- Optimization: Adam optimizer with categorical crossentropy loss
 
 Training Features:
 - Class weights to handle imbalanced dataset
@@ -66,6 +66,7 @@ Key Findings:
 =======REQUIREMENTS=======
 
 Python: 3.10.18
+
 Dependencies:
 - numpy: 1.26.4
 - pandas: 2.2.2
